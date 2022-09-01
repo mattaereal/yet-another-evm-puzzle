@@ -11,7 +11,7 @@ If you don't want to clone the repo and go straight to the challenges, below the
 - Puzzle #2  - [AAAAAAAAAAAaaaaaaaaaaahhh!!](https://www.evm.codes/playground?unit=Wei&codeType=Mnemonic&code=%27q32smmmm~CCutWAP1v1v3zMSTORE8~10pzSWAP1~01pv1~20zGT~25wIoouzMLOADuzCALLDATALOADzXORzEQ~49wIuv1zREVERTtTOP%27~zq1sz%5CnyrrrrwzJUMPvzDUPu~00twDESTzSs%200xrAAqPUSHpzADDozPOPmyy%01mopqrstuvwyz~_)
 - Puzzle #3  - [I don't need charity, thanks.](https://www.evm.codes/playground?callValue=100&unit=Wei&codeType=Mnemonic&code=%27tu4vIysLOADrMSTOREsSIZEyrCREATEyyrtrSWAP5zGASzwu5vIrDUP1zREVERTvDESTzSTOP%27~zPUSH1%200xz%5Cny~00wCALLvzJUMPuzISZERO~2twVALUEszwDATAryz%01rstuvwyz~_)
 - Puzzle #4 - [Who you gonna call?!](https://www.evm.codes/playground?unit=Wei&codeType=Mnemonic&code='w20yzGT~21vIy~00ytuCOPYyrtzqA3~e0zqRzPUq4s890d6908zEQ~22vI~00rzREVERTvDESTzSTOP'~zwz%5CnyuSIZEwPUq1svzJUMPuzCALLDATAt~20zSUBs%200xrzDUP1qSH%01qrstuvwyz~_)
-- Puzzle #5 - Restrictions (pending)
+- Puzzle #5 - [You never eat your stake alive.](https://www.evm.codes/playground?unit=Wei&codeType=Mnemonic&code='w04rSIZEzGT~eeuI~trLOAD~e0zSHR~t~tvVALUEzCREATE2zq32syyyyyy34d5cbd8a2b5e1bb6952581ae65b47ed2bd5ef2dzEQ~39uIzREVERTuDESTzSTOP'~zwz%5Cnyttwq1svzCALLuzJUMPt00s%200xrvDATAqPUSH%01qrstuvwyz~_)
 
 ## How to play
 
