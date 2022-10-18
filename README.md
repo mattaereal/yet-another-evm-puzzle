@@ -27,3 +27,5 @@ In some puzzles you only need to provide the value that will be sent to the cont
 
 You can use [`evm.codes`](https://www.evm.codes/)'s reference and playground to work through this.
 
+## Solutions
+Write-up by [tnch](twitter.com/tinchoabbate) @ [notonlyowner](https://www.notonlyowner.com/) - [Solving yet another EVM puzzle](https://www.notonlyowner.com/writeups/yet-another-evm-puzzle/).
