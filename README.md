@@ -6,6 +6,8 @@ I'll be accepting pull requests for solvable challenges on this repo, so feel fr
 
 If you don't want to clone the repo and go straight to the challenges, below there they are with a link directly to the playground.
 
+Note: Some solutions to the challenges will work correctly at evm.codes, but will fail while playing, so be sure to check them both. Trust evm.codes :)
+
 # Challenges
 - Puzzle #1  - [Is it zero?](https://www.evm.codes/playground?unit=Wei&codeType=Mnemonic&code=%27uw07rzGTzOR~ptyLOADtzMSTORErtzuzCREATEswpzBqANCEw23vItszREVERTvDESTzSTOP%27~zPUSH1%200xz%5CnyzCqLDATAwzISZERO~vzJUMPuCqLVqUEt~00szDUP1rySIZEqALp22vI%01pqrstuvwyz~_)
 - Puzzle #2  - [AAAAAAAAAAAaaaaaaaaaaahhh!!](https://www.evm.codes/playground?unit=Wei&codeType=Mnemonic&code=%27q32smmmm~CCutWAP1v1v3zMSTORE8~10pzSWAP1~01pv1~20zGT~25wIoouzMLOADuzCALLDATALOADzXORzEQ~49wIuv1zREVERTtTOP%27~zq1sz%5CnyrrrrwzJUMPvzDUPu~00twDESTzSs%200xrAAqPUSHpzADDozPOPmyy%01mopqrstuvwyz~_)
