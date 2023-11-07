@@ -41,7 +41,7 @@ async function playPuzzle(puzzle) {
 
   const solution = await readSolution(puzzle.askForData, puzzle.askForValue);
 
-  const [success, evmCodesUrl] = await runPuzzle(puzzle.code, solution);
+  const [success, evmCodesUrl] = await runPuzzle(puzzle.code, solution,puzzle.number);
 
   console.log();
   if (success) {
@@ -184,11 +184,15 @@ async function readSolution(askForData, askForValue) {
   return solution;
 }
 
-async function runPuzzle(puzzleCode, { data, value }) {
+async function runPuzzle(puzzleCode, { data, value },puzzleNumber) {
   const [s] = await ethers.getSigners();
-
-  const address = "0xffffffffffffffffffffffffffffffffffffffff";
-
+  let address="0xffffffffffffffffffffffffffffffffffffffff";
+  if(puzzleNumber===6)
+     address = "0xffffffffffffffffffffffffffffffffffffffff";
+  else
+     address = "0x9bbfed6889322e016e0a02ee459d306fc19545d8";
+  
+  
   await hre.network.provider.send("hardhat_setCode", [
     address,
     `0x${puzzleCode}`
