@@ -15,7 +15,10 @@ Note: Some solutions to the challenges will work correctly at evm.codes, but wil
 - Puzzle #4 - [Who you gonna call?!](https://www.evm.codes/playground?unit=Wei&codeType=Mnemonic&code='p0yGT~p1wIyz00yuvCOPYyru~qA3~ze0~qR~PUq4s890d6908~EQ~p6wItz00~rREVERTtSTOP'~%5CnzPUq1syvSIZE~w~JUMPv~CALLDATAup0~SUBtwDEST~s%200xrDUP1~qSHpz2%01pqrstuvwyz~_)
 - Puzzle #5 - [You never eat your stake alive.](https://www.evm.codes/playground?unit=Wei&codeType=Mnemonic&code='w04sSIZEzGT~38yIusLOAD~E0zSHRuuvVALUEzCREATE2zq32t34d5cbd8a2b5e1bb6952581ae65b47ed2bd5ef2dzEQ~3dyIruzDUP1zREVERTrzSTOP'~zwz%5CnyzJUMPwq1tvzCALLu~00t%200xsvDATAryDESTqPUSH%01qrstuvwyz~_)
 - Puzzle #6 - [Sender or owner?](https://www.evm.codes/playground?callValue=0&unit=Wei&callData=0xdeadbeef&codeType=Bytecode&code=%27346001116014573060003560601c1832146019575b600080fd5b00%27_&fork=merge)
-- Puzzle #7 - [Underflow me](https://www.evm.codes/playground?callValue=0&unit=Wei&callData=0x00&codeType=Bytecode&code=%27600160003504600190037fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff14603057fd5b00%27_&fork=merge)
+
+# Contributions
+- [Underflow me](https://www.evm.codes/playground?callValue=0&unit=Wei&callData=0x00&codeType=Bytecode&code=%27600160003504600190037fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff14603057fd5b00%27_&fork=merge)
+- [EvenOdd](https://www.evm.codes/playground?fork=shanghai&unit=Wei&codeType=Bytecode&code='zx2z35~81byf81c~1015b~fx101x28015y2657349003y11565bx19050ye114y3657z80fd5b00'~y0z~0y60xz5%01xyz~_)
 
 ## How to play
 
