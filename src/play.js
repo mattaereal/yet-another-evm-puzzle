@@ -63,8 +63,8 @@ async function askPlayNext() {
     {
       type: "confirm",
       name: "playNext",
-      message: "Do you want to play the next puzzle?"
-    }
+      message: "Do you want to play the next puzzle?",
+    },
   ]);
 
   console.log();
@@ -77,8 +77,8 @@ async function askTryAgain() {
     {
       type: "confirm",
       name: "tryAgain",
-      message: "Do you want to try again?"
-    }
+      message: "Do you want to try again?",
+    },
   ]);
 
   console.log();
@@ -100,10 +100,7 @@ function printCode(code) {
     let opcodeHex = code.slice(i, i + 2);
     let [opcode, pushSize] = getOpcode(opcodeHex);
 
-    const position = (i / 2)
-      .toString(16)
-      .toUpperCase()
-      .padStart(2, "0");
+    const position = (i / 2).toString(16).toUpperCase().padStart(2, "0");
 
     positions.push({ value: position, color: "gray" });
 
@@ -159,7 +156,7 @@ async function readSolution(askForData, askForValue) {
       name: "value",
       message: "Enter the value to send:",
       default: 0,
-      when: askForValue
+      when: askForValue,
     },
     {
       type: "input",
@@ -171,7 +168,7 @@ async function readSolution(askForData, askForValue) {
         x = x.length % 2 === 0 ? x : "0" + x;
         return "0x" + x;
       },
-    }
+    },
   ]);
 
   if (!askForValue) {
@@ -187,11 +184,11 @@ async function readSolution(askForData, askForValue) {
 async function runPuzzle(puzzleCode, { data, value }) {
   const [s] = await ethers.getSigners();
 
-  const address = "0xffffffffffffffffffffffffffffffffffffffff";
+  const address = "0x9bbfed6889322e016e0a02ee459d306fc19545d8";
 
   await hre.network.provider.send("hardhat_setCode", [
     address,
-    `0x${puzzleCode}`
+    `0x${puzzleCode}`,
   ]);
 
   data = data.startsWith("0x") ? data : `0x${data}`;
@@ -204,7 +201,7 @@ async function runPuzzle(puzzleCode, { data, value }) {
       to: address,
       data,
       gasLimit: 1_000_000,
-      value
+      value,
     });
     return [true, evmCodesUrl];
   } catch (e) {
@@ -229,7 +226,7 @@ function getNextPuzzle() {
 
   const numberOfPuzzles = fs
     .readdirSync(resolve(root, "puzzles"))
-    .filter(x => !x.startsWith(".")).length;
+    .filter((x) => !x.startsWith(".")).length;
 
   for (let i = 1; i <= numberOfPuzzles; i++) {
     const solutionPath = resolve(solutionsDir, `solution_${i}.json`);
@@ -237,7 +234,7 @@ function getNextPuzzle() {
       const puzzle = fs.readJsonSync(resolve(puzzlesDir, `puzzle_${i}.json`));
       return {
         ...puzzle,
-        number: i
+        number: i,
       };
     }
   }
