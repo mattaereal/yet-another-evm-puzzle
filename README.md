@@ -1,5 +1,5 @@
 # Yet another evm puzzle
-This repository is part of a post that belongs to a small series dedicated to motivate myself while learning how the evm works.
+This repository is part of a post that belongs to a small series dedicated to motivating myself while learning how the evm works.
 You can find the first post [here](https://medium.com/@mattaereal/solving-more-evm-puzzles-differently-part-i-170f2516b88d).
 
 I'll be accepting pull requests for solvable challenges on this repo, so feel free to submit your own!
@@ -36,5 +36,5 @@ You can use [`evm.codes`](https://www.evm.codes/)'s reference and playground to 
 
 ## Solutions
 Write-up by [tnch](twitter.com/tinchoabbate) @ [notonlyowner](https://www.notonlyowner.com/) - [Solving yet another EVM puzzle](https://www.notonlyowner.com/writeups/yet-another-evm-puzzle/).
-Another Write-up by [Norman](https://twitter.com/Normanrockon) 
--[Write-up for yet another EVM puzzle](https://medium.com/@0xNorman/list/evm-d2129ebffb48)
+
+Write-up by [Norman](https://twitter.com/Normanrockon) - [Write-up for yet another EVM puzzle](https://medium.com/@0xNorman/list/evm-d2129ebffb48)
